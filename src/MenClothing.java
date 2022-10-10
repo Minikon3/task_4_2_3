@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public interface MenClothing {
+public interface MenClothing {
+    default void dressMen(){
+        System.out.println("Одеть мужчину");
+    }
 }
